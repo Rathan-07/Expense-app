@@ -1,5 +1,5 @@
 **Expense Management App**
-This is a simple Expense Management application built with Node.js, Express, and MongoDB.
+This is a simple Expense Management application built with Node.js, Express, and MongoDB
 
 **Features**
 **Categories:**

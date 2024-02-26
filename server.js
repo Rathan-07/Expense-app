@@ -45,18 +45,18 @@ const categoryValidationSchema = {
         })
       }
     },
-    custom:{
-      options:function(value,{req}){
-          // const fieldValue = req.body.name;
-          const fieldValue = matchedData(req)
-          console.log(fieldValue);
-          if(typeof fieldValue !== 'string'||!fieldValue.includes(' ')){
-              throw new Error("Field should not contain  a space")
-              // return res.status(400).json({error:"name field cannot have space"})
-          }
-          return  true
-      }
-  }
+  //   custom:{
+  //     options:function(value,{req}){
+  //         // const fieldValue = req.body.name;
+  //         const fieldValue = matchedData(req)
+  //         console.log(fieldValue);
+  //         if(typeof fieldValue !== 'string'||!fieldValue.includes(' ')){
+  //             throw new Error("Field should not contain  a space")
+  //             // return res.status(400).json({error:"name field cannot have space"})
+  //         }
+  //         return  true
+  //     }
+  // }
   }
 }
 
